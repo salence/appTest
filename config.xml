@@ -11,5 +11,4 @@
         </author>
         <content src="index.html" />
         <access origin="*" />
-		<uses-permission android:name="android.permission.INTERNET"/>
     </widget>
