@@ -1,5 +1,6 @@
+<icon src="res/icon.png" />
+
  <widget id="com.example.hello" version="0.0.1">
-  <icon src="res/icon.png" />
         <name>HelloWorld</name>
         <description>
             A sample Apache Cordova application that responds to the deviceready event.
@@ -9,5 +10,5 @@
         </author>
         <content src="index.html" />
         <access origin="*" />
+		<uses-permission android:name="android.permission.INTERNET"/>
     </widget>
-
